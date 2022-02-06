@@ -18,9 +18,9 @@ This repository is a fork of https://github.com/docker-library/php with a few ch
 
 Supported tags and respective `Dockerfile` links:
 
-* `8.1.2`, `8.1`, `8`, `latest` [_(Dockerfile)_](https://github.com/yevgen4989/base-php/tree/master/8.1/alpine3.15/fpm/Dockerfile.super)
-* `8.0.15`, `8.0` [_(Dockerfile)_](https://github.com/yevgen4989/base-php/tree/master/8.0/alpine3.15/fpm/Dockerfile.super)
-* `7.4.27`, `7.4`, `7` [_(Dockerfile)_](https://github.com/yevgen4989/base-php/tree/master/7.3/alpine3.15/fpm/Dockerfile.super)
-* `7.3.33`, `7.3` [_(Dockerfile)_](https://github.com/yevgen4989/base-php/tree/master/7.3/alpine3.15/fpm/Dockerfile.super)
+* `8.1.2`, `8.1`, `8`, `latest` [_(Dockerfile)_](https://github.com/yevgen4989/base-php/tree/master/8.1/alpine3.15/fpm/Dockerfile)
+* `8.0.15`, `8.0` [_(Dockerfile)_](https://github.com/yevgen4989/base-php/tree/master/8.0/alpine3.15/fpm/Dockerfile)
+* `7.4.27`, `7.4`, `7` [_(Dockerfile)_](https://github.com/yevgen4989/base-php/tree/master/7.3/alpine3.15/fpm/Dockerfile)
+* `7.3.33`, `7.3` [_(Dockerfile)_](https://github.com/yevgen4989/base-php/tree/master/7.3/alpine3.15/fpm/Dockerfile)
 
 All images built for `linux/amd64` and `linux/arm64`

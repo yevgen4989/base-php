@@ -27,7 +27,7 @@ default: build
 
 build:
 	docker build -t $(REPO):$(TAG) \
-		-f Dockerfile.super \
+		-f Dockerfile \
 		--build-arg PHP_DEBUG=$(PHP_DEBUG) \
 		--build-arg BASE_IMAGE_TAG=$(BASE_IMAGE_TAG) ./
 

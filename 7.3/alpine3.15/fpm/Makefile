@@ -20,20 +20,20 @@ default: build
 
 build:
 	docker build -t $(REPO):$(TAG) \
-		-f Dockerfile.super \
+		-f Dockerfile \
 		--build-arg BASE_IMAGE_TAG=$(BASE_IMAGE_TAG) ./
 
 buildx-build:
 	docker buildx build -t $(REPO):$(TAG) \
 	    --platform $(PLATFORM) \
-		-f Dockerfile.super \
+		-f Dockerfile \
 		--build-arg BASE_IMAGE_TAG=$(BASE_IMAGE_TAG) ./
 
 buildx-push:
 	docker buildx build \
     	--build-arg BASE_IMAGE_TAG=$(BASE_IMAGE_TAG) \
 	    --platform $(PLATFORM) \
-		-f Dockerfile.super \
+		-f Dockerfile \
 		--push -t $(REPO):$(TAG) ./
 
 test:
